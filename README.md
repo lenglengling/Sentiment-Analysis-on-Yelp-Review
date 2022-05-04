@@ -6,7 +6,7 @@ Another challenge facing here is long text. Although transformer models can hand
 
 To fine-tune the pre-trained BERT, I froze the embedding and the first 11 encoder layers and fine-tuned the last encoder layer and the fully connected output layer. The learning curve of loss and accuracy over epochs was plotted to minitor overfitting. t-SNE was plotted to visualize the change of embeddings over training epochs and encoder layers. 
 
-The test accuracy of after fine-tuning is 61%. Higher accuracy was observed in the 1-star and 5-star classes as they are bounded on one side. The majority of misclassifications take place in the three middle rating levels. The decision boundary of the three middle levels can be controversial even from the perspective of humans. Considering data imperfection, human baseline level and multi-classes, Transformer models have fairly good performance in sensing subtleties in tone and emotions.
+The test accuracy after fine-tuning is 61%. Higher accuracy was observed in the 1-star and 5-star classes as they are bounded on one side. The majority of misclassifications take place in the three middle rating levels. The decision boundary of the three middle levels can be controversial even from the perspective of humans. Considering data imperfection, human baseline level and multi-classes, Transformer models have fairly good performance in sensing subtleties in tone and emotions.
 
 Transformer models have vastly advanced the study of natural language understanding. In this project, we are able to implement and compare BERT and XLNet on sentiment analysis. More Transformer-based models have been developed to either become the new SOTA, such as RoBERTa, XLNet, GPT-3, T5, or to speed up inference like DistilBERT. 
 
