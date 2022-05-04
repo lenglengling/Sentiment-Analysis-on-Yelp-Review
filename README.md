@@ -18,3 +18,10 @@ Transformer models have vastly advanced the study of natural language understand
   volume={28},
   year={2015}
 }
+
+@article{devlin2018bert,
+  title={Bert: Pre-training of deep bidirectional transformers for language understanding},
+  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+  journal={arXiv preprint arXiv:1810.04805},
+  year={2018}
+}
