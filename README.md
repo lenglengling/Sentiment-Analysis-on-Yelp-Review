@@ -10,7 +10,7 @@ The test accuracy after fine-tuning is 61%. Higher accuracy was observed in the 
 
 Transformer models have vastly advanced the study of natural language understanding. In this project, we are able to implement and compare BERT and XLNet on sentiment analysis. More Transformer-based models have been developed to either become the new SOTA, such as RoBERTa, XLNet, GPT-3, T5, or to speed up inference like DistilBERT. 
 
-
+#### References
 @article{zhang2015character,
   title={Character-level convolutional networks for text classification},
   author={Zhang, Xiang and Zhao, Junbo and LeCun, Yann},
